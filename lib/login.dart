@@ -44,7 +44,12 @@ class LoginPage extends StatelessWidget {
                   },
                 ),
               ),
-              child: const Text('Login'),
+              child: const Text(
+              'Login',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
             ),
             const SizedBox(height: 10),
             TextButton(

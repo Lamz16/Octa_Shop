@@ -44,7 +44,12 @@ class RegisterPage extends StatelessWidget {
                   },
                 ),
               ),
-              child: const Text('Register'),
+                child: const Text(
+                  'Register',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
             ),
             const SizedBox(height: 10),
             TextButton(
